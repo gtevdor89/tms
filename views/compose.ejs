@@ -1,0 +1,24 @@
+<%- include("partials/header"); -%>
+
+<section id="compose">
+    <div class="container-fluid">
+        <h1>Compose</h1>
+        <form action="/compose" method="post">
+            <div class="form-group">
+                <p>Post</p>
+                <textarea name="post" id="post" cols="100" rows="7"></textarea>
+            </div>
+            <button type="submit" class="btn btn-success">Publish Post</button>
+        </form>
+        <hr>
+        <form action="/compose" method="post">
+            <div class="form-group">
+                <p>Quote</p>
+                <textarea name="quote" id="quote" cols="100" rows="6"></textarea>
+            </div>
+            <button type="submit" class="btn btn-success">Publish Quote</button>
+        </form>
+    </div>
+</section>
+
+<%- include("partials/footer"); -%>

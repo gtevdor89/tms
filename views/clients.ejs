@@ -1,0 +1,13 @@
+<%- include("partials/header"); -%>
+
+<h1>Client List</h1>
+<hr>
+<% clients.forEach(function(client) { %> 
+    <p>Name: <%=client.name%></p>
+    <p>Email: <%=client.email%></p>
+    <p>Phone: <%=client.phone%></p>
+    <p>Comments: <%=client.comment%></p>
+    <hr>
+<% }); %>
+
+<%- include("partials/footer"); -%>

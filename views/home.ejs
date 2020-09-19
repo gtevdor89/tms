@@ -1,0 +1,41 @@
+<%- include("partials/header"); -%>
+
+<div class="parallax1"></div>
+<section id="quotes">
+<!--bootstrap carousel with buttons-->
+	<div id="carouselControls" class="carousel slide" data-ride="carousel">
+	<div class="carousel-inner">
+	<div class="carousel-item active">
+		<p class="quote">"To discover the real truth of who & what we are within this universe, we must allow ourselves to be able to see beyond the material veil of this reality, including ourselves.<br>
+
+		A more expansive plane of existence, understanding, and connection remains ever present, yet awaits for the individual to first acknowledge it within themselves before those deeper secrets, truthes and wisdom can be discovered & explored."</p>
+	</div>
+	<% quotes.forEach(function(quote) { %> 
+		<div class="carousel-item">
+			<p class="quote">"<%=quote.content%>"</p>
+		</div>
+	<% }); %>
+	</div>
+	<a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+	<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	<span class="sr-only">Previous</span>
+	</a>
+	<a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+	<span class="sr-only">Next</span>
+	</a>
+	</div>
+</section>
+<div class="parallax2"></div>
+    
+<!-- Call to Action -->
+    
+<section id="cta">
+	<h2>Stop hesitating. Take the step to better your life today.</h2>
+	<a class="btn btn-success ctaBtn" href="/about" role="button">About Me</a>
+	<a class="btn btn-success ctaBtn" href="/pricing" role="button">Schedule Now</a> <!--font awesome button-->
+	<a class="btn btn-success ctaBtn" href="/learn" role="button">Learn More</a>
+</section>
+<div class="parallax3"></div>
+
+<%- include("partials/footer"); -%>

@@ -1,0 +1,25 @@
+<%- include("partials/header"); -%>
+
+<section id="schedule">
+    <div class="container-fluid">
+        <h2>Don't wait. Schedule now and take the first step towards magnificence.</h2>
+        <hr>
+        <form action="/schedule" method="post">
+            <div class="form-group">
+                <p>Your Name</p>
+                <input type="text" name="name" placeholder="Full Name">
+                <p>Your Email</p>
+                <input type="email" name="email" placeholder="Email">
+                <p>Your Phone Number</p>
+                <input type="text" name="phone" placeholder="Phone Number">
+                <hr>
+                <p>What are some of your goals?</p>
+                <textarea name="comment" rows="7" cols="60"></textarea>
+            </div>
+            <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+        <h3>I will reach out to you as soon as possible and we can set up an appointment that works best within your own personal schedule.</h3>
+    </div>
+</section>
+
+<%- include("partials/footer"); -%>

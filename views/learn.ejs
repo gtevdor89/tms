@@ -1,0 +1,14 @@
+<%- include("partials/header"); -%>
+
+<section id="learn">
+    <div class="container-fluid">
+        <h1>Check out some of posts, musings, and lessons.</h1>
+        <hr>
+        <% posts.forEach(function(post) { %> 
+            <p><%=post.content%></p>
+            <hr>
+        <% }); %>
+    </div>
+</section>
+
+<%- include("partials/footer"); -%>

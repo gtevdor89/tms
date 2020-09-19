@@ -1,0 +1,253 @@
+/* using multiple selectors:
+multi select - el1, el2 { stuff }
+hierarchy select - el1 el2 { stuff } ----- targets all el2 ONLY WITHIN PARENT el1
+combo select - el1el2 {stuff } ----- kinda the same, maybe more specific because both are targets instead of just el2
+*/
+
+h1 {
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Cinzel', serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+    padding-bottom: 2rem;
+    color: #536b35;
+}
+h2 {
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Cinzel', serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #3f4b4e;
+    margin-bottom: 5%;
+}
+h3 {
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Cinzel', serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+h5 {
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Dosis', sans-serif;
+    font-weight: 100;
+    color: black;
+    /*color: #8f8f8f;*/
+}
+h6 {
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Dosis', sans-serif;
+    font-weight: 100;
+    color: black;
+    padding-top: 1.2rem;
+    padding-bottom: 1.5rem;
+    /*color: #8f8f8f;*/
+}
+p {
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Dosis', sans-serif;
+    font-weight: 100;
+    color: #273d32;
+    /*color: #8f8f8f;*/
+}
+button {
+    margin-right: 1rem;
+    margin-top: 2rem;
+    /*font-family: 'Ubuntu', sans-serif;*/
+    font-family: 'Aladin', cursive;
+}
+input {
+    margin-bottom: 1.2rem;
+}
+form {
+    white-space: pre-wrap;
+}
+/*.navbar {
+    padding: 0 0 4rem; /*top left/right bottom
+}*/
+.ctaBtn {
+    font-family: 'Aladin', cursive;
+}
+.quote {
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Dosis', sans-serif;
+    /*font-weight: 300;*/
+    color: #f6f6f6;
+}
+.topBar {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.greeting {
+    padding: 3% 15%
+}
+.navbar-dark .navbar-brand {
+    /*font-family: 'Ubuntu', sans-serif;*/
+    font-family: 'Aladin', cursive;
+    font-size: 2.1rem;
+    color: #f5f5f5;
+}
+.nav-link {
+    /*font-family: 'Ubuntu', sans-serif;*/
+    font-family: 'Aladin', cursive;
+    font-size: 1.2rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #f5f5f5;
+}
+.nav-item {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.profile {
+    position: absolute;
+    width: 60%;
+    border-radius: 100%;
+    right: 23%;
+}
+.carousel-item {
+    padding: 7% 20%; /*top/bottom left/right*/
+}
+.carousel-item-active {
+    padding: 7% 20%; /*top/bottom left/right*/
+}
+.carousel-inner {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.carousel-control-prev {
+    padding-left: 10%;
+}
+.carousel-control-next {
+    padding-right: 10%;
+}
+.card {
+    text-align: center;
+}
+.pricePlans {
+    padding-top: 4rem;
+}
+.contact {
+    margin: 2rem 1rem;
+}
+.parallax1 {
+    /* The image used */
+    background-image: url("bg1.jpg");
+  
+    /* Set a specific height */
+    min-height: 275px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2 {
+    /* The image used */
+    background-image: url("bg2.jpg");
+  
+    /* Set a specific height */
+    min-height: 225px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax3 {
+    /* The image used */
+    background-image: url("bg2.jpg");
+  
+    /* Set a specific height */
+    min-height: 150px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.toglr {
+    margin-top: 0;
+}
+#compose {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    background-color: #e2fcc4;
+}
+#top {
+    background: linear-gradient(to right, #3d5401, #8fa300);
+}
+#about {
+    background-color: #e2fcc4;
+    padding-bottom: 8rem;
+}
+#quotes {
+    position: relative;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    background-color: #4a8a4e;
+}
+#pricing {
+    padding: 6rem;
+    text-align: center;
+    background-color: #e2fcc4;
+}
+#cta {
+    background-color: #e2fcc4;
+    text-align: center;
+    color: white;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+#footer {
+    text-align: center;
+    /*padding-top: 1%;*/
+    padding-bottom: 1%;
+    background-color: #649dad00;
+}
+#learn {
+    text-align: center;
+    padding: 5% 15%;
+}
+#media {
+    text-align: center;
+    background-color: #e2fcc4;
+    padding-bottom: 8rem;
+}
+#post {
+    white-space: pre-wrap;
+}
+#schedule {
+    margin-top: 2rem;
+    text-align: center;
+    background-color: #e2fcc4;
+}
+#quote {
+    white-space: pre-wrap;
+}
+/*css breakpoints; use @media (event)*/
+@media (max-width: 990px) {
+    #title {
+        text-align: center;
+        padding-bottom: 3rem;
+    }
+    .profile {
+        position: static;
+        width: 60%;
+        border-radius: 100%;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+    }
+}
+@media (min-width: 1700px) {
+    #title {
+        padding-bottom: 20rem;
+    }
+}
