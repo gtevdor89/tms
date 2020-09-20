@@ -5,7 +5,6 @@ combo select - el1el2 {stuff } ----- kinda the same, maybe more specific because
 */
 
 h1 {
-    /*font-family: 'Montserrat', sans-serif;*/
     font-family: 'Cinzel', serif;
     font-size: 2.5rem;
     font-weight: 900;
@@ -14,7 +13,6 @@ h1 {
     color: #536b35;
 }
 h2 {
-    /*font-family: 'Montserrat', sans-serif;*/
     font-family: 'Cinzel', serif;
     font-size: 1.8rem;
     font-weight: bold;
@@ -22,7 +20,6 @@ h2 {
     margin-bottom: 5%;
 }
 h3 {
-    /*font-family: 'Montserrat', sans-serif;*/
     font-family: 'Cinzel', serif;
     font-size: 1.5rem;
     font-weight: bold;
@@ -31,50 +28,42 @@ h3 {
     margin-bottom: 1.2rem;
 }
 h5 {
-    /*font-family: 'Montserrat', sans-serif;*/
     font-family: 'Dosis', sans-serif;
     font-weight: 100;
     color: black;
-    /*color: #8f8f8f;*/
 }
 h6 {
-    /*font-family: 'Montserrat', sans-serif;*/
     font-family: 'Dosis', sans-serif;
     font-weight: 100;
     color: black;
     padding-top: 1.2rem;
     padding-bottom: 1.5rem;
-    /*color: #8f8f8f;*/
 }
 p {
-    /*font-family: 'Montserrat', sans-serif;*/
     font-family: 'Dosis', sans-serif;
     font-weight: 100;
     color: #273d32;
-    /*color: #8f8f8f;*/
 }
 button {
     margin-right: 1rem;
     margin-top: 2rem;
-    /*font-family: 'Ubuntu', sans-serif;*/
     font-family: 'Aladin', cursive;
 }
 input {
     margin-bottom: 1.2rem;
 }
-form {
+label {
+    font-family: 'Dosis', sans-serif;
+    color: #273d32;
+}
+.form-control {
     white-space: pre-wrap;
 }
-/*.navbar {
-    padding: 0 0 4rem; /*top left/right bottom
-}*/
 .ctaBtn {
     font-family: 'Aladin', cursive;
 }
 .quote {
-    /*font-family: 'Montserrat', sans-serif;*/
     font-family: 'Dosis', sans-serif;
-    /*font-weight: 300;*/
     color: #f6f6f6;
 }
 .topBar {
@@ -85,13 +74,11 @@ form {
     padding: 3% 15%
 }
 .navbar-dark .navbar-brand {
-    /*font-family: 'Ubuntu', sans-serif;*/
     font-family: 'Aladin', cursive;
     font-size: 2.1rem;
     color: #f5f5f5;
 }
 .nav-link {
-    /*font-family: 'Ubuntu', sans-serif;*/
     font-family: 'Aladin', cursive;
     font-size: 1.2rem;
 }
@@ -176,8 +163,8 @@ form {
     margin-top: 0;
 }
 #compose {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     text-align: center;
     background-color: #e2fcc4;
 }
@@ -225,7 +212,8 @@ form {
     white-space: pre-wrap;
 }
 #schedule {
-    margin-top: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     text-align: center;
     background-color: #e2fcc4;
 }
@@ -241,7 +229,6 @@ form {
     .profile {
         position: static;
         width: 60%;
-        border-radius: 100%;
         padding-top: 2rem;
         padding-bottom: 3rem;
     }
@@ -250,4 +237,18 @@ form {
     #title {
         padding-bottom: 20rem;
     }
+    .profile {
+        width: 50%;
+    }
 }
+@media only screen and (max-device-width: 1366px) {
+    .parallax1 {
+      background-attachment: scroll;
+    }
+    .parallax2 {
+      background-attachment: scroll;
+    }
+    .parallax3 {
+      background-attachment: scroll;
+    }
+  }
